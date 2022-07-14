@@ -1,5 +1,5 @@
 ﻿----------------------------------------------------------------------
--- 	Leatrix Plus 2.5.113 (6th July 2022)
+-- 	Leatrix Plus 2.5.114 (13th July 2022)
 ----------------------------------------------------------------------
 
 --	01:Functns, 02:Locks, 03:Restart, 20:Live, 30:Isolated, 40:Player
@@ -19,7 +19,7 @@
 	local void
 
 	-- Version
-	LeaPlusLC["AddonVer"] = "2.5.113"
+	LeaPlusLC["AddonVer"] = "2.5.114"
 
 	-- Get locale table
 	local void, Leatrix_Plus = ...
@@ -552,6 +552,7 @@
 		or	(LeaPlusLC["CombineAddonButtons"]	~= LeaPlusDB["CombineAddonButtons"])	-- Combine addon buttons
 		or	(LeaPlusLC["MiniExcludeList"]		~= LeaPlusDB["MiniExcludeList"])		-- Minimap exclude list
 		or	(LeaPlusLC["TipModEnable"]			~= LeaPlusDB["TipModEnable"])			-- Enhance tooltip
+		or	(LeaPlusLC["TipNoHealthBar"]		~= LeaPlusDB["TipNoHealthBar"])			-- Tooltip hide health bar
 		or	(LeaPlusLC["EnhanceDressup"]		~= LeaPlusDB["EnhanceDressup"])			-- Enhance dressup
 		or	(LeaPlusLC["EnhanceQuestLog"]		~= LeaPlusDB["EnhanceQuestLog"])		-- Enhance quest log
 		or	(LeaPlusLC["EnhanceProfessions"]	~= LeaPlusDB["EnhanceProfessions"])		-- Enhance professions
@@ -9498,6 +9499,7 @@
 			LeaPlusLC:MakeCB(SideTip, "TipShowOtherRank", "Show guild ranks for other guilds", 16, -112, false, "If checked, guild ranks will be shown for players who are not in your guild.")
 			LeaPlusLC:MakeCB(SideTip, "TipShowTarget", "Show unit targets", 16, -132, false, "If checked, unit targets will be shown.")
 			LeaPlusLC:MakeCB(SideTip, "TipHideInCombat", "Hide tooltips for world units during combat", 16, -152, false, "If checked, tooltips for world units will be hidden during combat.|n|nYou can hold the shift key down to override this setting.")
+			LeaPlusLC:MakeCB(SideTip, "TipNoHealthBar", "Hide the health bar", 16, -172, true, "If checked, the health bar will not be shown.")
 
 			LeaPlusLC:CreateDropDown("TooltipAnchorMenu", "Anchor", SideTip, 146, "TOPLEFT", 356, -115, {L["None"], L["Overlay"], L["Cursor"], L["Cursor Left"], L["Cursor Right"]}, "")
 
@@ -9557,6 +9559,7 @@
 			end)
 
 			-- Reset button handler
+			SideTip.r.tiptext = SideTip.r.tiptext .. "|n|n" .. L["Note that this will not reset settings that require a UI reload."]
 			SideTip.r:SetScript("OnClick", function()
 				LeaPlusLC["TipShowRank"] = "On"
 				LeaPlusLC["TipShowOtherRank"] = "Off"
@@ -9637,6 +9640,11 @@
 				end
 
 			end)
+
+			-- Hide health bar
+			if LeaPlusLC["TipNoHealthBar"] == "On" then
+				GameTooltipStatusBar:SetStatusBarTexture("")
+			end
 
 			---------------------------------------------------------------------------------------------------------
 			-- Tooltip scale settings
@@ -11788,6 +11796,7 @@
 				LeaPlusLC:LoadVarChk("TipShowOtherRank", "Off")				-- Show rank for other guilds
 				LeaPlusLC:LoadVarChk("TipShowTarget", "On")					-- Show target
 				LeaPlusLC:LoadVarChk("TipHideInCombat", "Off")				-- Hide tooltips during combat
+				LeaPlusLC:LoadVarChk("TipNoHealthBar", "Off")				-- Hide health bar
 				LeaPlusLC:LoadVarNum("LeaPlusTipSize", 1.00, 0.50, 2.00)	-- Tooltip scale slider
 				LeaPlusLC:LoadVarNum("TipOffsetX", -13, -5000, 5000)		-- Tooltip X offset
 				LeaPlusLC:LoadVarNum("TipOffsetY", 94, -5000, 5000)			-- Tooltip Y offset
@@ -12034,6 +12043,7 @@
 			LeaPlusDB["TipShowOtherRank"]		= LeaPlusLC["TipShowOtherRank"]
 			LeaPlusDB["TipShowTarget"]			= LeaPlusLC["TipShowTarget"]
 			LeaPlusDB["TipHideInCombat"]		= LeaPlusLC["TipHideInCombat"]
+			LeaPlusDB["TipNoHealthBar"]			= LeaPlusLC["TipNoHealthBar"]
 			LeaPlusDB["LeaPlusTipSize"]			= LeaPlusLC["LeaPlusTipSize"]
 			LeaPlusDB["TipOffsetX"]				= LeaPlusLC["TipOffsetX"]
 			LeaPlusDB["TipOffsetY"]				= LeaPlusLC["TipOffsetY"]
