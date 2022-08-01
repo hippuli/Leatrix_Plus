@@ -139,6 +139,7 @@
 					["0.61:0.35:0.58:0.25:0.59:0.19:0.58:0.06"] = 368, -- Light's Hope Chapel, Tranquillien, Silvermoon City, Shattered Sun Staging Area
 					["0.61:0.35:0.42:0.37:0.50:0.66:0.46:0.65"] = 729, -- Light's Hope Chapel, Undercity, Kargath, Thorium Point
 					["0.61:0.35:0.42:0.37:0.50:0.66:0.41:0.93"] = 970, -- Light's Hope Chapel, Undercity, Kargath, Booty Bay
+					["0.61:0.35:0.42:0.37:0.50:0.66:0.54:0.79"] = 896, -- Light's Hope Chapel, Undercity, Kargath, Stonard
 
 					-- Horde: Revantusk Village (The Hinterlands)
 					["0.59:0.45:0.55:0.46:0.50:0.66:0.41:0.93"] = 648, -- Revantusk Village, Hammerfall, Kargath, Booty Bay
@@ -405,6 +406,7 @@
 					["0.44:0.69:0.56:0.53:0.61:0.55"] = 316, -- Camp Mojache, Crossroads, Ratchet
 					["0.44:0.69:0.56:0.53:0.63:0.44:0.64:0.23"] = 621, -- Camp Mojache, Crossroads, Orgrimmar, Everlook
 					["0.44:0.69:0.56:0.53:0.41:0.47"] = 415, -- Camp Mojache, Crossroads, Sun Rock Retreat
+					["0.44:0.69:0.55:0.73:0.57:0.64:0.61:0.55:0.63:0.44"] = 386, -- Camp Mojache, Freewind Post, Brackenwall Village, Ratchet, Orgrimmar
 
 					-- Horde: Camp Taurajo (The Barrens)
 					["0.53:0.61:0.55:0.73:0.61:0.80"] = 218, -- Camp Taurajo, Freewind Post, Gadgetzan
@@ -637,6 +639,8 @@
 					["0.54:0.21:0.46:0.30:0.63:0.36"] = 339, -- Moonglade, Bloodvenom Post, Valormok
 					["0.54:0.21:0.64:0.23:0.63:0.36:0.55:0.42"] = 370, -- Moonglade, Everlook, Valormok, Splintertree Post
 					["0.54:0.21:0.64:0.23:0.63:0.36:0.56:0.53:0.44:0.69"] = 692, -- Moonglade, Everlook, Valormok, Crossroads, Camp Mojache
+					["0.54:0.21:0.64:0.23:0.63:0.44:0.61:0.55:0.61:0.80:0.50:0.76:0.42:0.79"] = 933, -- Moonglade, Everlook, Orgrimmar, Ratchet, Gadgetzan, Marshal's Refuge, Cenarion Hold
+					["0.54:0.21:0.46:0.30:0.56:0.53:0.45:0.56:0.32:0.58"] = 618, -- Moonglade, Bloodvenom Post, Crossroads, Thunder Bluff, Shadowprey Village
 
 					-- Horde: Mudsprocket (Dustwallow Marsh)
 					["0.58:0.70:0.55:0.73:0.44:0.69:0.42:0.79"] = 324, -- Mudsprocket, Freewind Post, Camp Mojache, Cenarion Hold
@@ -749,6 +753,7 @@
 					["0.32:0.58:0.44:0.69:0.55:0.73:0.61:0.80:0.50:0.76"] = 497, -- Shadowprey Village, Camp Mojache, Freewind Post, Gadgetzan, Marshal's Refuge
 					["0.32:0.58:0.41:0.47:0.56:0.53:0.63:0.44"] = 465, -- Shadowprey Village, Sun Rock Retreat, Crossroads, Orgrimmar
 					["0.32:0.58:0.45:0.56:0.63:0.44:0.64:0.23"] = 626, -- Shadowprey Village, Thunder Bluff, Orgrimmar, Everlook
+					["0.32:0.58:0.45:0.56:0.63:0.36:0.64:0.23:0.54:0.21"] = 691, -- Shadowprey Village, Thunder Bluff, Valormok, Everlook, Moonglade
 
 					-- Horde: Splintertree Post (Ashenvale)
 					["0.55:0.42:0.56:0.53:0.44:0.69:0.42:0.79"] = 541, -- Splintertree Post, Crossroads, Camp Mojache, Cenarion Hold
@@ -1004,6 +1009,7 @@
 					["0.54:0.57:0.44:0.51:0.49:0.36:0.58:0.27:0.63:0.18"] = 242, -- Falcon Watch, Swamprat Post, Mok'Nathal Village, Area 52, The Stormspire
 					["0.54:0.57:0.44:0.67:0.51:0.73:0.66:0.77:0.81:0.77"] = 286, -- Falcon Watch, Shattrath, Stonebreaker Hold, Shadowmoon Village, Altar of Sha'tar
 					["0.54:0.57:0.44:0.67:0.51:0.73:0.66:0.77:0.78:0.85"] = 269, -- Falcon Watch, Shattrath, Stonebreaker Hold, Shadowmoon Village, Sanctum of the Stars
+					["0.54:0.57:0.44:0.51:0.38:0.32:0.58:0.27"] = 271, -- Falcon Watch, Swamprat Post, Thunderlord Stronghold, Area 52
 
 					-- Horde: Garadar (Nagrand)
 					["0.29:0.62:0.44:0.67:0.51:0.73:0.66:0.77"] = 210, -- Garadar, Shattrath, Stonebreaker Hold, Shadowmoon Village
@@ -1025,6 +1031,8 @@
 					["0.29:0.62:0.44:0.67:0.51:0.73:0.66:0.77:0.78:0.85"] = 274, -- Garadar, Shattrath, Stonebreaker Hold, Shadowmoon Village, Sanctum of the Stars
 					["0.29:0.62:0.44:0.67:0.44:0.51:0.49:0.36:0.58:0.27"] = 282, -- Garadar, Shattrath, Sumpfrattenposten, Dorf der Mok'Nathal, Area 52
 					["0.29:0.62:0.23:0.50:0.44:0.51"] = 175, -- Garadar, Zabra'jin, Swamprat Post
+					["0.29:0.62:0.44:0.67:0.44:0.51:0.38:0.32:0.58:0.27"] = 359, -- Garadar, Shattrath, Swamprat Post, Thunderlord Stronghold, Area 52
+					["0.29:0.62:0.44:0.67:0.44:0.51:0.38:0.32:0.42:0.28"] = 287, -- Garadar, Shattrath, Swamprat Post, Thunderlord Stronghold, Evergrove
 
 					-- Horde: Hellfire Peninsula (Hellfire Peninsula) (Dark Portal)
 					["0.79:0.54:0.65:0.50:0.51:0.73:0.66:0.77"] = 252, -- Hellfire Peninsula, Thrallmar, Stonebreaker Hold, Shadowmoon Village
@@ -1229,6 +1237,7 @@
 					["0.63:0.18:0.38:0.32:0.23:0.50:0.29:0.62"] = 372, -- The Stormspire, Thunderlord Stronghold, Zabra'jin, Garadar
 					["0.63:0.18:0.38:0.32:0.44:0.51:0.44:0.67:0.51:0.73:0.66:0.77"] = 481, -- The Stormspire, Thunderlord Stronghold, Swamprat Post, Shattrath, Stonebreaker Hold, Shadowmoon Village
 					["0.63:0.18:0.38:0.32:0.44:0.51:0.54:0.57:0.65:0.50"] = 397, -- The Stormspire, Thunderlord Stronghold, Swamprat Post, Falcon Watch, Thrallmar
+					["0.63:0.18:0.38:0.32:0.44:0.51:0.44:0.67:0.51:0.73"] = 417, -- The Stormspire, Thunderlord Stronghold, Swamprat Post, Shattrath, Stonebreaker Hold
 
 					-- Horde: Thrallmar (Hellfire Peninsula)
 					["0.65:0.50:0.51:0.73:0.66:0.77"] = 192, -- Thrallmar, Stonebreaker Hold, Shadowmoon Village
@@ -1886,6 +1895,7 @@
 					["0.43:0.25:0.42:0.16"] = 84, -- Auberdine, Rut'theran Village
 					["0.43:0.25:0.53:0.26:0.65:0.23"] = 279, -- Auberdine, Talonbranch Glade, Everlook
 					["0.43:0.25:0.31:0.69:0.48:0.70"] = 627, -- Auberdine, Feathermoon, Thalanaar
+					["0.43:0.25:0.64:0.67:0.61:0.55"] = 552, -- Auberdine, Theramore, Ratchet
 
 					-- Alliance: Cenarion Hold (Silithus)
 					["0.42:0.79:0.31:0.69"] = 175, -- Cenarion Hold, Feathermoon
@@ -1909,6 +1919,7 @@
 					["0.42:0.79:0.60:0.81:0.61:0.55:0.46:0.40:0.50:0.35"] = 709, -- Cenarion Hold, Gadgetzan, Ratchet, Astranaar, Emerald Sanctuary
 					["0.42:0.79:0.31:0.69:0.43:0.25:0.55:0.21:0.65:0.23"] = 911, -- Cenarion Hold, Feathermoon, Auberdine, Moonglade, Everlook
 					["0.42:0.79:0.60:0.81:0.48:0.70"] = 366, -- Cenarion Hold, Gadgetzan, Thalanaar
+					["0.42:0.79:0.31:0.69:0.43:0.25:0.53:0.26"] = 832, -- Cenarion Hold, Feathermoon, Auberdine, Talonbranch Glade
 
 					-- Alliance: Emerald Sanctuary (Felwood)
 					["0.50:0.35:0.46:0.40:0.39:0.40:0.40:0.51:0.31:0.69"] = 592, -- Emerald Sanctuary, Astranaar, Stonetalon Peak, Nijel's Point, Feathermoon
@@ -1977,6 +1988,8 @@
 					["0.65:0.23:0.61:0.40:0.61:0.55:0.64:0.67:0.40:0.51"] = 733, -- Everlook, Talrendis Point, Ratchet, Theramore, Nijel's Point
 					["0.65:0.23:0.53:0.26:0.50:0.35:0.58:0.39"] = 319, -- Everlook, Talonbranch Glade, Emerald Sanctuary, Forest Song
 					["0.65:0.23:0.53:0.26:0.43:0.25:0.31:0.69"] = 749, -- Everlook, Talonbranch Glade, Auberdine, Feathermoon
+					["0.65:0.23:0.61:0.40:0.46:0.40:0.50:0.35"] = 394, -- Everlook, Talrendis Point, Astranaar, Emerald Sanctuary
+					["0.65:0.23:0.53:0.26:0.43:0.25:0.64:0.67:0.60:0.81"] = 872, -- Everlook, Talonbranch Glade, Auberdine, Theramore, Gadgetzan
 
 					-- Alliance: Feathermoon (Feralas)
 					["0.31:0.69:0.42:0.79"] = 153, -- Feathermoon, Cenarion Hold
@@ -2013,6 +2026,7 @@
 					["0.31:0.69:0.48:0.70:0.58:0.70:0.64:0.67:0.61:0.55:0.46:0.40:0.50:0.35"] = 680, -- Feathermoon, Thalanaar, Mudsprocket, Theramore, Ratchet, Astranaar, Emerald Sanctuary
 					["0.31:0.69:0.42:0.79:0.60:0.81"] = 338, -- Feathermoon, Cenarion Hold, Gadgetzan
 					["0.31:0.69:0.40:0.51:0.39:0.40:0.46:0.40:0.61:0.55"] = 694, -- Feathermoon, Nijel's Point, Stonetalon Peak, Astranaar, Ratchet
+					["0.31:0.69:0.40:0.51:0.64:0.67:0.61:0.55"] = 649, -- Feathermoon, Nijel's Point, Theramore, Ratchet
 
 					-- Alliance: Forest Song (Ashenvale)
 					["0.58:0.39:0.61:0.40:0.61:0.55:0.64:0.67:0.48:0.70:0.31:0.69"] = 602, -- Forest Song, Talrendis Point, Ratchet, Theramore, Thalanaar, Feathermoon
@@ -2075,6 +2089,8 @@
 					["0.60:0.81:0.64:0.67:0.43:0.25"] = 588, -- Gadgetzan, Theramore, Auberdine
 					["0.60:0.81:0.61:0.55:0.46:0.40:0.43:0.25:0.53:0.26"] = 780, -- Gadgetzan, Ratchet, Astranaar, Auberdine, Talonbranch Glade
 					["0.60:0.81:0.64:0.67:0.46:0.40:0.58:0.39"] = 652, -- Gadgetzan, Theramore, Astranaar, Forest Song
+					["0.60:0.81:0.61:0.55:0.61:0.40:0.58:0.39:0.50:0.35:0.53:0.26:0.55:0.21"] = 692, -- Gadgetzan, Ratchet, Talrendis Point, Forest Song, Emerald Sanctuary, Talonbranch Glade, Moonglade
+					["0.60:0.81:0.48:0.70:0.31:0.69:0.40:0.51"] = 581, -- Gadgetzan, Thalanaar, Feathermoon, Nijel's Point
 
 					-- Alliance: Marshal's Refuge (Un'Goro Crater)
 					["0.50:0.76:0.42:0.79:0.31:0.69"] = 258, -- Marshal's Refuge, Cenarion Hold, Feathermoon
@@ -2270,6 +2286,7 @@
 					["0.39:0.40:0.43:0.25:0.42:0.16"] = 261, -- Stonetalon Peak, Auberdine, Rut'theran Village
 					["0.39:0.40:0.40:0.51:0.64:0.67:0.61:0.55"] = 549, -- Stonetalon Peak, Nijel's Point, Theramore, Ratchet
 					["0.39:0.40:0.46:0.40:0.61:0.55:0.64:0.67:0.48:0.70"] = 612, -- Stonetalon Peak, Astranaar, Ratchet, Theramore, Thalanaar
+					["0.39:0.40:0.43:0.25:0.53:0.26"] = 367, -- Stonetalon Peak, Auberdine, Talonbranch Glade
 
 					-- Alliance: Talonbranch Glade (Felwood)
 					["0.53:0.26:0.43:0.25:0.31:0.69"] = 660, -- Talonbranch Glade, Auberdine, Feathermoon
@@ -2296,6 +2313,7 @@
 					["0.53:0.26:0.50:0.35:0.46:0.40:0.61:0.55"] = 402, -- Talonbranch Glade, Emerald Sanctuary, Astranaar, Ratchet
 					["0.53:0.26:0.43:0.25:0.39:0.40"] = 369, -- Talonbranch Glade, Auberdine, Stonetalon Peak
 					["0.53:0.26:0.50:0.35:0.46:0.40:0.61:0.55:0.60:0.81"] = 643, -- Talonbranch Glade, Emerald Sanctuary, Astranaar, Ratchet, Gadgetzan
+					["0.53:0.26:0.61:0.40:0.58:0.39"] = 308, -- Talonbranch Glade, Talrendis Point, Forest Song
 
 					-- Alliance: Talrendis Point (Azshara)
 					["0.61:0.40:0.61:0.55:0.64:0.67:0.48:0.70:0.31:0.69"] = 574, -- Talrendis Point, Ratchet, Theramore, Thalanaar, Feathermoon
@@ -2305,7 +2323,7 @@
 					["0.61:0.40:0.61:0.55:0.64:0.67:0.58:0.70"] = 297, -- Talrendis Point, Ratchet, Theramore, Mudsprocket
 					["0.61:0.40:0.64:0.67"] = 241, -- Talrendis Point, Theramore
 					["0.61:0.40:0.61:0.55:0.60:0.81"] = 373, -- Talrendis Point, Ratchet, Gadgetzan
-					["0.61:0.40:0.61:0.55"] = 135, -- Talrendis Point, Ratchet
+					["0.61:0.40:0.61:0.55"] = 135, -- Talrendis Point, Ratchet (Brian Villarreal suggested 129)
 					["0.61:0.40:0.46:0.40:0.39:0.40:0.40:0.51"] = 431, -- Talrendis Point, Astranaar, Stonetalon Peak, Nijel's Point
 					["0.61:0.40:0.46:0.40:0.39:0.40"] = 305, -- Talrendis Point, Astranaar, Stonetalon Peak
 					["0.61:0.40:0.46:0.40"] = 153, -- Talrendis Point, Astranaar
@@ -2347,6 +2365,7 @@
 					["0.48:0.70:0.58:0.70:0.64:0.67:0.40:0.51"] = 472, -- Thalanaar, Mudsprocket, Theramore, Nijel's Point
 					["0.48:0.70:0.58:0.70:0.64:0.67:0.61:0.55:0.46:0.40:0.50:0.35:0.53:0.26:0.65:0.23"] = 742, -- Thalanaar, Mudsprocket, Theramore, Ratchet, Astranaar, Emerald Sanctuary, Talonbranch Glade, Everlook
 					["0.48:0.70:0.60:0.81:0.61:0.55"] = 416, -- Thalanaar, Gadgetzan, Ratchet
+					["0.48:0.70:0.64:0.67:0.61:0.55:0.46:0.40"] = 469, -- Thalanaar, Theramore, Cabestan, Astranaar
 
 					-- Alliance: Theramore (Dustwallow Marsh)
 					["0.64:0.67:0.48:0.70:0.31:0.69"] = 340, -- Theramore, Thalanaar, Feathermoon
@@ -2378,6 +2397,7 @@
 					["0.64:0.67:0.46:0.40:0.58:0.39"] = 504, -- Theramore, Astranaar, Forest Song
 					["0.64:0.67:0.61:0.55:0.46:0.40:0.50:0.35:0.53:0.26"] = 516, -- Theramore, Ratschet, Astranaar, Emerald Sanctuary, Talonbranch Glade
 					["0.64:0.67:0.60:0.81:0.42:0.79:0.31:0.69"] = 520, -- Theramore, Gadgetzan, Cenarion Hold, Feathermoon
+					["0.64:0.67:0.46:0.40:0.39:0.40"] = 524, -- Theramore, Astranaar, Stonetalon Peak
 
 				},
 
@@ -2482,6 +2502,7 @@
 					["0.72:0.28:0.58:0.27:0.42:0.37:0.38:0.50:0.44:0.67:0.55:0.77:0.69:0.85:0.78:0.85"] = 520, -- Cosmowrench, Area 52, Toshley's Station, Telredor, Shattrath, Allerian Stronghold, Wildhammer Stronghold, Sanctum of the Stars
 					["0.72:0.28:0.63:0.18:0.32:0.34:0.38:0.50"] = 296, -- Cosmowrench, The Stormspire, Sylvanaar, Telredor
 					["0.72:0.28:0.58:0.27:0.32:0.34:0.38:0.50:0.44:0.67"] = 369, -- Cosmowrench, Area 52, Sylvanaar, Telredor, Shattrath
+					["0.72:0.28:0.58:0.27:0.32:0.34:0.38:0.50:0.52:0.51:0.65:0.58"] = 441, -- Cosmowrench, Area 52, Sylvanaar, Telredor, Temple of Telhamat, Honor Hold
 
 					-- Alliance: Evergrove (Blade's Edge Mountains)
 					["0.42:0.28:0.42:0.37:0.38:0.50:0.27:0.74"] = 240, -- Evergrove, Toshley's Station, Telredor, Telaar
@@ -2641,6 +2662,7 @@
 					["0.44:0.67:0.38:0.50:0.32:0.34:0.63:0.18"] = 329, -- Shattrath, Telredor, Sylvanaar, The Stormspire
 					["0.44:0.67:0.38:0.50:0.32:0.34:0.58:0.27"] = 294, -- Shattrath, Telredor, Sylvanaar, Area 52
 					["0.44:0.67:0.38:0.50:0.32:0.34:0.42:0.28"] = 226, -- Shattrath, Telredor, Sylvanaar, Evergrove
+					["0.44:0.67:0.38:0.50:0.32:0.34:0.63:0.18:0.72:0.28"] = 398, -- Shattrath, Telredor, Sylvanaar, The Stormspire, Cosmowrench
 
 					-- Alliance: Sylvanaar (Blade's Edge Mountains)
 					["0.32:0.34:0.38:0.50:0.27:0.74"] = 207, -- Sylvanaar, Telredor, Telaar
@@ -2704,6 +2726,7 @@
 					["0.38:0.50:0.32:0.34:0.42:0.28"] = 142, -- Telredor, Sylvanaar, Evergrove
 					["0.38:0.50:0.44:0.67:0.65:0.58"] = 208, -- Telredor, Shattrath, Honor Hold
 					["0.38:0.50:0.52:0.51:0.65:0.58:0.55:0.77"] = 284, -- Telredor, Temple of Telhamat, Honor Hold, Allerian Stronghold
+					["0.38:0.50:0.32:0.34:0.63:0.18"] = 245, -- Telredor, Sylvanaar, The Stormspire
 
 					-- Alliance: Temple of Telhamat (Hellfire Peninsula)
 					["0.52:0.51:0.38:0.50:0.27:0.74"] = 206, -- Temple of Telhamat, Telredor, Telaar
